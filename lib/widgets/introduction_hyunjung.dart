@@ -26,7 +26,7 @@ class Huynjung extends StatelessWidget {
             Container(
                 height: MediaQuery.of(context).size.height * 0.65,
                 width: MediaQuery.of(context).size.width * 1,
-                color: Color.fromARGB(230, 230, 230, 230))
+                color: Color.fromARGB(248, 248, 248, 248))
           ])),
           Positioned(
               top: 65,
@@ -53,7 +53,7 @@ class Huynjung extends StatelessWidget {
                   height: 140,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color.fromARGB(230, 230, 230, 230),
+                    color: Color.fromARGB(248, 248, 248, 248),
                   ),
                 ),
               ])),
@@ -69,7 +69,7 @@ class Huynjung extends StatelessWidget {
                             fontSize: 20,
                             fontWeight: FontWeight.w800,
                           )),
-                      const SizedBox(height: 8),
+                      const SizedBox(height: 5),
                       Container(
                         child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -81,26 +81,26 @@ class Huynjung extends StatelessWidget {
                               const SizedBox(width: 5),
                               const Text('jl20lemon@gmail.com',
                                   style: TextStyle(
-                                    fontSize: 16,
+                                    fontSize: 18,
                                     fontWeight: FontWeight.w400,
                                   )),
                             ]),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(height: 20),
                       const Text(
                           '안녕하세요, 구사조의 팀원 이현정입니다. \n디자인 경험이 있고, 도장에서 하는 \n운동과 구기운동을 좋아합니다.',
                           softWrap: true,
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 18,
+                            fontSize: 20,
                             fontWeight: FontWeight.w400,
                           )),
-                      const SizedBox(height: 15),
+                      const SizedBox(height: 20),
                       const Text('INFP',
                           softWrap: true,
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize:38,
                             fontWeight: FontWeight.w900,
                           )),
                     ])),
